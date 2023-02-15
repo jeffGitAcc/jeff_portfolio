@@ -1,0 +1,77 @@
+.main__div {
+  width: 100%;
+  min-height: 65vh;
+  background-color: aliceblue;
+  margin-top: 20px;
+}
+.main__div h2 {
+  text-align: center;
+  font-weight: 600;
+  color: rgb(58, 56, 56);
+}
+.main__div p {
+  text-align: center;
+  color: var(--gray-color);
+}
+
+.about__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .about__info {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.about__info img {
+  width: 500px;
+  height: 300px;
+  filter: grayscale(80%);
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 20px;
+}
+.about__info img:hover {
+  filter: none;
+}
+.about__info p {
+  text-align: start;
+  padding: 5px;
+  width: 600px;
+  line-height: 1.5rem;
+  color: var(--gray-color);
+  font-weight: 300;
+}
+@media screen and (max-width: 1200px) {
+  .about__info p {
+    width: 70%;
+  }
+}
+
+.info__flex {
+  display: flex;
+  flex-direction: column;
+}
+.info__flex a {
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: rgb(53, 53, 53);
+  color: white;
+  padding: 10px;
+  width: 10rem;
+  border-radius: 10px;
+}
+.info__flex a:hover {
+  background-color: #13005A;
+}
+@media screen and (max-width: 1200px) {
+  .info__flex {
+    align-items: center;
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=About.css.map */

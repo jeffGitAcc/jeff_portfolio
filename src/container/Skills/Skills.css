@@ -1,0 +1,42 @@
+.skills__content {
+  padding: 20px;
+  margin: 25px;
+  background-color: aliceblue;
+}
+
+@media screen and (max-width: 1200px) {
+  .skills__app {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.skills__title {
+  padding: 10px;
+  color: rgb(58, 56, 56);
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.skills__data {
+  padding: 5px;
+}
+.skills__data div {
+  padding: 5px;
+}
+.skills__data h3 {
+  color: rgb(58, 56, 56);
+  font-size: 1rem;
+}
+.skills__data span {
+  color: rgb(58, 56, 56);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.skills__group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  width: 300px;
+}/*# sourceMappingURL=Skills.css.map */

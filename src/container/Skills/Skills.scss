@@ -1,0 +1,50 @@
+
+.skills__content{
+    
+    padding: 20px;
+    margin: 25px;
+    background-color: aliceblue;
+    
+}
+.skills__app{
+   
+
+    @media screen and (max-width: 1200px) {
+        display: flex;
+        flex-direction: column;
+        
+       
+     }
+}
+.skills__title{
+    padding: 10px;
+    color: rgb(58, 56, 56);
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.skills__data{
+  
+    padding: 5px;
+    div{
+        padding: 5px;
+    }
+    h3{
+        color: rgb(58, 56, 56);
+        font-size: 1rem;
+    }
+    span{
+        color: rgb(58, 56, 56);
+        font-size: .9rem;
+        font-weight: 500;
+    }
+    
+}
+.skills__group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5em
+    ;
+    width: 300px;
+    
+  
+}

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea6a6166.css",
+    "main.js": "/static/js/main.47c3e7c0.js",
+    "static/media/Brittle.pdf": "/static/media/Brittle.90b9b8753e7b72b03319.pdf",
+    "static/media/lirika.PNG": "/static/media/lirika.de6c8c710e3acd7d12f8.PNG",
+    "static/media/jeff.jpg": "/static/media/jeff.c1a0270e0776244dd907.jpg",
+    "index.html": "/index.html",
+    "main.ea6a6166.css.map": "/static/css/main.ea6a6166.css.map",
+    "main.47c3e7c0.js.map": "/static/js/main.47c3e7c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea6a6166.css",
+    "static/js/main.47c3e7c0.js"
+  ]
+}

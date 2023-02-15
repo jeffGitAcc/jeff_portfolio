@@ -1,0 +1,132 @@
+.app__header {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 2000px) {
+  .app__header {
+    padding: 8rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .app__header {
+    flex-direction: column;
+    display: flex;
+  }
+}
+@media screen and (max-width: 450px) {
+  .app__header {
+    padding: 6rem 1rem 2rem;
+  }
+}
+
+.app__flex {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+@media screen and (max-width: 1200px) {
+  .app__flex {
+    flex-direction: column;
+    display: flex;
+    width: 70%;
+  }
+}
+
+.app_header-badge {
+  padding: 1em;
+  width: 100%;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+.app_header-badge div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.app_header-badge div p {
+  text-align: start;
+  color: var(--gray-color);
+  font-weight: 500;
+}
+.app_header-badge div h1 {
+  text-align: center;
+  padding: 5px;
+  letter-spacing: 0.2em;
+  font-size: 4em;
+  font-weight: 600;
+  color: #272626;
+}
+@media screen and (max-width: 1200px) {
+  .app_header-badge {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+  }
+}
+
+.tag-cmp {
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  flex-direction: row;
+  width: auto;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.tag-cmp {
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+@media screen and (max-width: 1200px) {
+  .tag-cmp {
+    flex-direction: column;
+    display: flex;
+    width: 300px;
+  }
+}
+.tag-cmp p {
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--gray-color);
+  font-weight: 500;
+}
+
+.app__header-img {
+  margin-left: 2rem;
+}
+.app__header-img img {
+  width: 350px;
+  box-shadow: 5px 5px 10px #888888;
+  animation: profile__animate 5s ease-in-out infinite;
+  border: 6px solid gray;
+}
+@media screen and (max-width: 1200px) {
+  .app__header-img {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+@keyframes profile__animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+.app__navigition-dot {
+  background-color: #888888;
+  width: 10px;
+  height: 7px;
+}/*# sourceMappingURL=Header.css.map */
