@@ -1,9 +1,9 @@
 import jeff from '../assets/jeff.jpg'
-import Brittle from '../assets/Brittle.pdf'
+import CV from '../assets/CV.pdf'
 import lirika from '../assets/lirika.PNG'
 
 export default {
   jeff,
-  Brittle,
+  CV,
   lirika
 }

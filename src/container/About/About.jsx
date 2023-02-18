@@ -18,7 +18,7 @@ const About = () => {
               <p>Hello! My name is Jefferson Indaya and I enjoy learning new things. After I graduate I decided to enroll in coding bootcamp to learn more and study other programming language,frameworks and APIs.
               </p>
               <p>Now I'm creating some project to add it to my portfolio and hope to develop and produce a project from the client.</p>
-             <a href={images.Brittle}>Download CV <AiFillFileText /></a>
+             <a href={images.CV}>Download CV <AiFillFileText /></a>
             </div>
 
           </div>
